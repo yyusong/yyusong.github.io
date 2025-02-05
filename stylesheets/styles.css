@@ -3,7 +3,7 @@
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 18px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
 }
@@ -22,14 +22,21 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:32px;
+}
+.wrapper2 {
+ text-align: center;
+ margin-left: -1cm;
+ font-size:32px;
 }
 
 h2 {
+  font-size: 30px;
   color:#393939;
 }
 
 h3, h4, h5, h6 {
+  font-size: 26px;
   color:#494949;
 }
 
@@ -100,7 +107,7 @@ th {
 }
 
 img {
-  max-width:85%;
+  max-width:80%;
 }
 
 header {
