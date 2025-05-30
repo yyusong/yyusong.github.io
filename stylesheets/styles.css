@@ -268,3 +268,16 @@ footer {
     color:#444;
   }
 }
+.abstract {
+    display: none; /* Hide abstracts by default */
+    margin-top: 10px;
+    color: gray; /* Ensure abstract text is gray */
+}
+.expand-btn {
+    color: #6c757d; /* Gray color for the button */
+    cursor: pointer;
+    font-weight: bold;
+}
+.expand-btn:hover {
+    color: #343a40; /* Darker gray shade on hover */
+}
