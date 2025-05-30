@@ -3,18 +3,19 @@
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 22px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
-  margin:0 0 20px;
+  margin:0 0 26px;
 }
 
 p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
+  margin:0 0 15px;
+  font-size: 17px;
 }
 
 h1, h2, h3 {
@@ -22,15 +23,26 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:42px;
 }
-
 h2 {
+  font-size: 32px;
   color:#393939;
 }
+.wrapper2 {
+ text-align: center;
+ margin-left: -1cm;
+ font-size:40px;
+}
+
+.section-title {
+  font-size: 26px;  /* or whatever fits */
+}
+
 
 h3, h4, h5, h6 {
   color:#494949;
+  font-size: 34px;
 }
 
 a {
@@ -54,9 +66,12 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
+  width:800px;
   margin:0 auto;
+  
 }
+
+
 
 blockquote {
   border-left:1px solid #e5e5e5;
@@ -100,13 +115,13 @@ th {
 }
 
 img {
-  max-width:100%;
+  max-width:85%;
 }
 
 header {
-  width:270px;
+  width:220px;
   float:left;
-  position:fixed;
+
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -121,7 +136,7 @@ header ul {
 }
 
 header li {
-  width:89px;
+  width:90px;
   float:left;
   border-right:1px solid #e0e0e0;
   height:40px;
@@ -160,7 +175,7 @@ strong {
 
 header ul li + li + li {
   border-right:none;
-  width:89px;
+  width:90px;
 }
 
 header ul a strong {
@@ -170,10 +185,11 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:540px;
   float:right;
-  padding-bottom:50px;
+  padding-bottom:40px;
 }
+
 
 small {
   font-size:11px;
@@ -193,8 +209,22 @@ footer {
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
+@media screen and (max-width: 1500px) {
+  header, section, footer {
+    float: none;
+    width: auto;
+  }
 
-@media print, screen and (max-width: 960px) {
+  header {
+    width: 100%;
+  }
+
+  section {
+    width: 100%;
+  }
+}
+
+@media print, screen and (max-width: 1600px) {
 
   div.wrapper {
     width:auto;
@@ -268,3 +298,18 @@ footer {
     color:#444;
   }
 }
+
+.abstract {
+    display: none; /* Hide abstracts by default */
+    margin-top: 10px;
+    color: gray; /* Ensure abstract text is gray */
+}
+.expand-btn {
+    color: #6c757d; /* Gray color for the button */
+    cursor: pointer;
+    font-weight: bold;
+}
+.expand-btn:hover {
+    color: #343a40; /* Darker gray shade on hover */
+}
+
