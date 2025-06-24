@@ -119,9 +119,10 @@ img {
 }
 
 header {
-  width: 200px;
-  align-self: flex-start;
-  -webkit-font-smoothing: subpixel-antialiased;
+  width:200px;
+  float:left;
+  position:fixed;
+  -webkit-font-smoothing:subpixel-antialiased;
 }
 
 header ul {
