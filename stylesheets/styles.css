@@ -65,12 +65,11 @@ a:hover small {
 }
 
 .wrapper {
-  display: flex;
-  flex-direction: row;
-  max-width: 1000px;
-  margin: 0 auto;
+  width:860px;
+  margin:0 auto;
   gap: 40px;
 }
+
 
 blockquote {
   border-left:1px solid #e5e5e5;
