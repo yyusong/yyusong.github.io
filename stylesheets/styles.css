@@ -65,11 +65,14 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
-  margin:0 auto;
-  gap: 20px; 
+  display: flex;
+  flex-wrap: wrap;      /* allow children to wrap on narrow screens */
+  flex-direction: row;   /* desktop: side by side */
+  max-width: 860px;      /* never exceed 860px */
+  width: 100%;           /* but shrink to 100% of the viewport */
+  margin: 0 auto;        /* center it */
+  gap: 20px;             /* your desired spacing */
 }
-
 
 blockquote {
   border-left:1px solid #e5e5e5;
