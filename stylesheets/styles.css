@@ -119,11 +119,13 @@ img {
 }
 
 header {
-  width:200px;
-  float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
+  width: 200px;
+  position: sticky;
+  top: 50px;
+  align-self: flex-start;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
+
 
 header ul {
   list-style: none;
@@ -236,7 +238,8 @@ footer {
   }
 
   header {
-    margin-bottom: 40px;
+    position: static !important;
+    top: auto;
   }
 }
 
