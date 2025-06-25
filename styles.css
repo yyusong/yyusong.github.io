@@ -109,11 +109,12 @@ img {
 }
 
 header {
-  width:270px;
-  float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
+  width: 270px;
+  float: left;
+  margin-right: 10px;    /* desired gutter */
 }
+
+
 
 header ul {
   list-style:none;
@@ -174,10 +175,11 @@ header ul a strong {
   color:#222;
 }
 
+
 section {
-  width:500px;
-  float:right;
-  padding-bottom:50px;
+  float: right;
+  width: calc(100% - 280px);  /* 270px header + 10px gap */
+  padding-bottom: 50px;
 }
 
 small {
