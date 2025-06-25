@@ -2,36 +2,47 @@
 
 body {
   background-color: #fff;
-  padding:40px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
-  font-weight:400;
+  padding: 40px;
+  font: 22px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #727272;
+  font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
-  margin:0 0 20px;
+  color: #222;
+  margin: 0 0 26px;
 }
 
 p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
+  font-size: 15px;
 }
 
 h1, h2, h3 {
-  line-height:1.1;
+  line-height: 1.1;
 }
 
 h1 {
-  font-size:28px;
+  font-size: 36px;
 }
 
 h2 {
-  color:#393939;
+  font-size: 24px;
+  color: #393939;
+}
+.wrapper2 {
+  text-align: center;
+  margin-left: -1cm;
+  font-size: 36px;
+}
+.section-title {
+  font-size: 24px;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color: #494949;
+  font-size: 28px;
 }
+
 
 a {
   color:#39c;
@@ -55,7 +66,6 @@ a:hover small {
 
 .wrapper {
   width:860px;
-  width: 100%;
   margin:0 auto;
 }
 
@@ -101,15 +111,11 @@ th {
 }
 
 img {
-  display: block;       /* so margin auto centers it */
-  margin: 0 auto;       /* center if you like */
-  width: 200px;         /* default on wide viewports */
-  max-width: 100%;      /* but never overflow its container */
-  height: auto;         /* preserve aspect ratio */
+  max-width:85%;
 }
 
 header {
-  width:270px;
+  width:200px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -177,7 +183,7 @@ header ul a strong {
 section {
   width:500px;
   float:right;
-  padding-bottom:50px;
+  padding-bottom:40px;
 }
 
 small {
@@ -197,6 +203,22 @@ footer {
   position:fixed;
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
+}
+
+.abstract {
+  display: none;
+  margin-top: 10px;
+  color: gray;
+}
+
+.expand-btn {
+  color: #6c757d;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.expand-btn:hover {
+  color: #343a40;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -255,11 +277,6 @@ footer {
 @media print, screen and (max-width: 480px) {
   body {
     padding:15px;
-  }
-
-   img {
-    width: 120px;       /* shrink to 120px when viewport ≤480px */
-    max-width: 100%;    /* still never overflow */
   }
 
   header ul {
