@@ -101,7 +101,11 @@ th {
 }
 
 img {
-  max-width:100%;
+  display: block;       /* so margin auto centers it */
+  margin: 0 auto;       /* center if you like */
+  width: 200px;         /* default on wide viewports */
+  max-width: 100%;      /* but never overflow its container */
+  height: auto;         /* preserve aspect ratio */
 }
 
 header {
@@ -251,6 +255,11 @@ footer {
 @media print, screen and (max-width: 480px) {
   body {
     padding:15px;
+  }
+
+   img {
+    width: 120px;       /* shrink to 120px when viewport ≤480px */
+    max-width: 100%;    /* still never overflow */
   }
 
   header ul {
