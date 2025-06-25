@@ -283,7 +283,7 @@ footer {
     padding:15px;
   }
    img {
-    width: 120px;       /* shrink to 120px when viewport ≤480px */
+    width: 150px;       /* shrink to 120px when viewport ≤480px */
     max-width: 100%;    /* still never overflow */
   }
 
