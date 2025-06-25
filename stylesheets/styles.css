@@ -71,7 +71,7 @@ a:hover small {
   max-width: 860px;      /* never exceed 860px */
   width: 100%;           /* but shrink to 100% of the viewport */
   margin: 0 auto;        /* center it */
-  gap: 20px;             /* your desired spacing */
+  gap: 60px;             /* your desired spacing */
 }
 
 blockquote {
