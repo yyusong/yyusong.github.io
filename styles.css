@@ -178,8 +178,8 @@ header ul a strong {
 
 section {
   float: right;
-  width: calc(100% - 280px);  /* 270px header + 10px gap */
-  padding-bottom: 50px;
+  width: 760px;  /* 270px header + 10px gap */
+  padding-bottom: 45px;
 }
 
 small {
