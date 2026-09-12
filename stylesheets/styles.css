@@ -54,7 +54,7 @@ a:hover {
 }
 
 a small {
-  font-size:12px;
+  font-size:14px;
   color:#777;
   margin-top:-0.3em;
   display:block;
@@ -65,7 +65,7 @@ a:hover small {
 }
 
 .wrapper {
-    width:min(1150px, calc(100vw - 80px));
+    width:min(950px, calc(100vw - 80px));
     margin:0 auto;
   }
 blockquote {
@@ -78,7 +78,7 @@ blockquote {
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   color:#333;
-  font-size:12px;
+  font-size:14px;
 }
 
 pre {
@@ -151,7 +151,7 @@ header li:last-child a {
 
 header ul a {
   line-height:1;
-  font-size:12px;
+  font-size:14px;
   color:#999;
   display:block;
   text-align:center;
@@ -184,14 +184,14 @@ header ul a strong {
 }
 
  section {
-    width:calc(100% - 250px);
+    width:calc(100% - 300px);
     float:right;
     padding-bottom:40px;
   }
 
 
 small {
-  font-size:12px;
+  font-size:14px;
 }
 
 hr {
@@ -300,7 +300,7 @@ footer {
 @media print {
   body {
     padding:0.4in;
-    font-size:12pt;
+    font-size:14pt;
     color:#444;
   }
 }
